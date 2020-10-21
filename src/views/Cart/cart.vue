@@ -109,7 +109,8 @@ export default {
       let many = 0;
       this.$store.state.shopcar.forEach((element) => {
         if (element.flag == true) {
-          many += parseFloat(element.many);
+          many += parseFloat(element.many * element.number);
+          7;
         }
       });
       return many;
