@@ -1,0 +1,23 @@
+{
+  "id": "2008699",
+  "name": "add",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9306582",
+      "name": "筛选",
+      "font_class": "shaixuan",
+      "unicode": "e811",
+      "unicode_decimal": 59409
+    },
+    {
+      "icon_id": "15657524",
+      "name": "展开",
+      "font_class": "zhankai",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    }
+  ]
+}

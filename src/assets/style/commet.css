@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    /*webkit浏览器*/
+    -ms-user-select: none;
+    /*IE10*/
+    -khtml-user-select: none;
+    /*早期浏览器*/
+    user-select: none;
+}
+
+input,
+button {
+    outline: none;
+    border: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+html,
+body {
+    font-size: 10px;
+}
+
+@media screen and(max-width:375px) {
+    html,
+    body {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and(max-width:414px) {
+    html,
+    body {
+        font-size: 11.4px !important;
+    }
+}
+
+
+/* 768px */
+
+@media screen and (min-width:768px) {
+    /* 10*768/375 */
+    html,
+    body {
+        font-size: 20.48px !important;
+    }
+}
