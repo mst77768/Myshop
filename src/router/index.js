@@ -14,7 +14,10 @@ import MyShop from "../views/shopsel/myshop.vue"
 
 import Ele from "../views/Home/childrien/Ele.vue"
 Vue.use(VueRouter) //配置路由的页面
-const routes = [{ //这里面是配置几个路由页面
+const routes = [{
+    path: "/",
+    redirect: "/home"
+}, { //这里面是配置几个路由页面
     path: '/home',
     name: 'Home',
     component: Home, //默认显示第一个页面
